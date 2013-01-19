@@ -1,0 +1,6 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_1='/etc/apache2/conf.d'
+let g:netrw_dirhist_2='/home/bpo_data/.vim/syntax'
+let g:netrw_dirhist_3='/home/bpo_data/.vim/bundle/jquery/syntax'
+let g:netrw_dirhist_4='/home/bpo_data/.vim/bundle/vim-shoulda'

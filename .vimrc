@@ -16,6 +16,9 @@ autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype eruby setlocal ts=2 sw=2 expandtab
 
+"Map newline without entering insert mode
+nnoremap <C-J> i<CR><Esc>kA<Esc>
+
 "Use pathogen to manage plugins
 call pathogen#infect()
 call pathogen#helptags()

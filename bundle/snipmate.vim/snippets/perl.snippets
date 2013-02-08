@@ -95,3 +95,15 @@ snippet cl
 snippet slurp
 	my $${1:var};
 	{ local $/ = undef; local *FILE; open FILE, "<${2:file}"; $$1 = <FILE>; close FILE }${3}
+# Inside class use self->{..}
+snippet self
+	$self->{_${1:varname}}${2}
+# Variable declaration
+snippet my;
+	my $${1:varname};
+	${2}
+snippet mye
+	my $${1:varname} = ${2:value};
+	${3}
+snippet my
+	my $${1:varname}

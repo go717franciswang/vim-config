@@ -27,6 +27,9 @@ call pathogen#helptags()
 map <F2> :NERDTreeToggle<CR>
 let g:NERDTreeDirArrows=0
 
+"CoffeeScript preview compile
+map <F3> :CoffeeCompile<CR>
+
 "Color chars past some chars
 "augroup vimrc_autocmds
 "  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929

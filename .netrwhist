@@ -1,6 +1,9 @@
 let g:netrw_dirhistmax  =10
-let g:netrw_dirhist_cnt =4
+let g:netrw_dirhist_cnt =7
 let g:netrw_dirhist_1='/etc/apache2/conf.d'
 let g:netrw_dirhist_2='/home/bpo_data/.vim/syntax'
 let g:netrw_dirhist_3='/home/bpo_data/.vim/bundle/jquery/syntax'
 let g:netrw_dirhist_4='/home/bpo_data/.vim/bundle/vim-shoulda'
+let g:netrw_dirhist_5='/home/bpo_data/.rvm/gems/ruby-1.9.3-p362/gems/google-api-client-0.6.2/lib/google/api_client/discovery'
+let g:netrw_dirhist_6='/etc/apache2/sites-available/user-ebox-test'
+let g:netrw_dirhist_7='/var/www/dry-ravine-3505'

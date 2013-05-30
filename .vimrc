@@ -14,9 +14,7 @@ set smarttab
 set expandtab
 set softtabstop=4
 set autoindent
-if $TERM == "xterm-256color"
-    set t_Co=256
-endif
+set t_Co=256
 "set textwidth=80
 "set wrap!
 
@@ -24,6 +22,7 @@ filetype indent plugin on
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype eruby setlocal ts=2 sw=2 expandtab
+autocmd Filetype yaml setlocal ts=2 sw=2 expandtab
 
 "Map newline without entering insert mode
 nnoremap <C-J> i<CR><Esc>kA<Esc>
@@ -46,6 +45,10 @@ let g:nerdtree_tabs_open_on_gui_startup=0
 
 "CoffeeScript preview compile
 map <F3> :CoffeeCompile<CR>
+
+"VimClojure
+let vimclojure#HighlightBuiltins=1      " Highlight Clojure's builtins
+let vimclojure#ParenRainbow=1           " Rainbow parentheses'!
 
 "Color chars past some chars
 "augroup vimrc_autocmds

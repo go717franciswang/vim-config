@@ -49,6 +49,7 @@ map <F3> :CoffeeCompile<CR>
 "VimClojure
 let vimclojure#HighlightBuiltins=1      " Highlight Clojure's builtins
 let vimclojure#ParenRainbow=1           " Rainbow parentheses'!
+au BufRead,BufNewFile *.cljs setfiletype clojure
 
 "Color chars past some chars
 "augroup vimrc_autocmds

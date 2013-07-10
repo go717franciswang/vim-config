@@ -263,6 +263,12 @@ setlocal lispwords+=with-bindings
 " Namespaces:
 setlocal lispwords+=ns,clojure.core/ns
 
+" Testing:
+setlocal lispwords+=deftest
+
+" Leinengin:
+setlocal lispwords+=defproject
+
 " Java Classes:
 setlocal lispwords+=gen-class,gen-interface
 

@@ -46,10 +46,13 @@ let g:nerdtree_tabs_open_on_gui_startup=0
 "CoffeeScript preview compile
 "map <F3> :CoffeeCompile<CR>
 
-"VimClojure
-let vimclojure#HighlightBuiltins=1      " Highlight Clojure's builtins
-let vimclojure#ParenRainbow=1           " Rainbow parentheses'!
 au BufRead,BufNewFile *.cljs setfiletype clojure
+
+"RainbowParentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 "Color chars past some chars
 "augroup vimrc_autocmds

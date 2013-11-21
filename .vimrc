@@ -44,7 +44,7 @@ let NERDTreeKeepTreeInNewTab=1
 let g:nerdtree_tabs_open_on_gui_startup=0
 
 "CoffeeScript preview compile
-map <F3> :CoffeeCompile<CR>
+"map <F3> :CoffeeCompile<CR>
 
 "VimClojure
 let vimclojure#HighlightBuiltins=1      " Highlight Clojure's builtins
@@ -57,4 +57,12 @@ au BufRead,BufNewFile *.cljs setfiletype clojure
 "  autocmd BufEnter * match OverLength /\%80v.*/
 "augroup END
 
-colorscheme molokai
+"colorscheme molokai
+"colorscheme rcg_term
+"colorscheme ron
+colorscheme xoria256
+"colorscheme wombat256
+"colorscheme beauty256
+"colorscheme 256-jungle
+"colorscheme colorful256
+"colorscheme desert256

@@ -54,6 +54,13 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+"Golang plugins
+filetype off
+filetype plugin indent off
+set runtimepath+=$GOROOT/misc/vim
+filetype plugin indent on
+syntax on
+
 "Color chars past some chars
 "augroup vimrc_autocmds
 "  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929

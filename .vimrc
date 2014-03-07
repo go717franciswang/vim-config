@@ -48,11 +48,16 @@ let g:nerdtree_tabs_open_on_gui_startup=0
 
 au BufRead,BufNewFile *.cljs setfiletype clojure
 
-"RainbowParentheses
-au VimEnter * RainbowParenthesesToggle
-au Syntax * RainbowParenthesesLoadRound
-au Syntax * RainbowParenthesesLoadSquare
-au Syntax * RainbowParenthesesLoadBraces
+" Ocatve
+augroup filetypedetect 
+  au! BufRead,BufNewFile *.m,*.oct set filetype=octave 
+augroup END 
+if has("autocmd") && exists("+omnifunc") 
+   autocmd Filetype octave 
+   \    if &omnifunc == "" | 
+   \     setlocal omnifunc=syntaxcomplete#Complete | 
+   \    endif 
+endif 
 
 "Golang plugins
 filetype off
@@ -60,6 +65,12 @@ filetype plugin indent off
 set runtimepath+=$GOROOT/misc/vim
 filetype plugin indent on
 syntax on
+
+"RainbowParentheses
+au VimEnter * RainbowParenthesesToggle
+au Syntax * RainbowParenthesesLoadRound
+au Syntax * RainbowParenthesesLoadSquare
+au Syntax * RainbowParenthesesLoadBraces
 
 "Color chars past some chars
 "augroup vimrc_autocmds

@@ -81,9 +81,9 @@ au Syntax * RainbowParenthesesLoadBraces
 "colorscheme molokai
 "colorscheme rcg_term
 "colorscheme ron
-colorscheme xoria256
+"colorscheme xoria256
 "colorscheme wombat256
 "colorscheme beauty256
 "colorscheme 256-jungle
-"colorscheme colorful256
+colorscheme colorful256
 "colorscheme desert256

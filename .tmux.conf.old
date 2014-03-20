@@ -4,9 +4,9 @@ unbind-key j
 bind-key j down-pane
 unbind-key k
 bind-key k up-pane
-unbind-key h
-bind-key h down-pane
 unbind-key l
-bind-key l up-pane
+bind-key l down-pane
+unbind-key h
+bind-key h up-pane
 bind-key -t vi-copy 'v' begin-selection
 bind-key -t vi-copy 'y' copy-selection

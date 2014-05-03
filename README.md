@@ -12,3 +12,4 @@ ln -s `realpath .vimrc` ../.vimrc
 ln -s `realpath .tmux.conf` ../.tmux.conf
 ```
 
+test

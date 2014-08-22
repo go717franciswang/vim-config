@@ -74,6 +74,9 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+"Vim-airline
+let g:airline#extensions#tabline#enabled = 1
+
 "Color chars past some chars
 "augroup vimrc_autocmds
 "  autocmd BufEnter * highlight OverLength ctermbg=darkgrey guibg=#592929

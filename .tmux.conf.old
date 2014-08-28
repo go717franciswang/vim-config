@@ -1,0 +1,12 @@
+setw -g mode-keys vi
+setw -g xterm-keys on
+unbind-key j
+bind-key j down-pane
+unbind-key k
+bind-key k up-pane
+unbind-key l
+bind-key l down-pane
+unbind-key h
+bind-key h up-pane
+bind-key -t vi-copy 'v' begin-selection
+bind-key -t vi-copy 'y' copy-selection

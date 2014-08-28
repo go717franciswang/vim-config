@@ -14,6 +14,7 @@ set smarttab
 set expandtab
 set softtabstop=4
 set autoindent
+"set cindent
 set t_Co=256
 "set textwidth=80
 "set wrap!
@@ -72,6 +73,9 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+"Vim-airline
+let g:airline#extensions#tabline#enabled = 1
 
 "Color chars past some chars
 "augroup vimrc_autocmds

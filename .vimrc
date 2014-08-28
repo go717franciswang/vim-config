@@ -19,6 +19,7 @@ set t_Co=256
 "set wrap!
 
 filetype indent plugin on
+autocmd Filetype c setlocal ts=2 sw=2 expandtab
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
 autocmd Filetype ruby setlocal ts=2 sw=2 expandtab
 autocmd Filetype eruby setlocal ts=2 sw=2 expandtab

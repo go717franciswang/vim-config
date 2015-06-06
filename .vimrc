@@ -61,6 +61,10 @@ if has("autocmd") && exists("+omnifunc")
    \    endif 
 endif 
 
+" Perl
+" do not search all included files
+set complete-=i
+
 "Golang plugins
 filetype off
 filetype plugin indent off

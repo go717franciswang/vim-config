@@ -92,7 +92,7 @@ let g:airline#extensions#tabline#enabled = 1
 "colorscheme ron
 "colorscheme xoria256
 "colorscheme wombat256
-"colorscheme beauty256
+colorscheme beauty256
 "colorscheme 256-jungle
-colorscheme colorful256
+"colorscheme colorful256
 "colorscheme desert256

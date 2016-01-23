@@ -78,6 +78,8 @@ au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
 
+au BufNewFile,BufRead *.jack setf jack
+
 "Vim-airline
 let g:airline#extensions#tabline#enabled = 1
 

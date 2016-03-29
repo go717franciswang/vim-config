@@ -61,6 +61,10 @@ if has("autocmd") && exists("+omnifunc")
    \    endif 
 endif 
 
+" Perl
+" do not search all included files
+set complete-=i
+
 "Golang plugins
 filetype off
 filetype plugin indent off
@@ -73,6 +77,8 @@ au VimEnter * RainbowParenthesesToggle
 au Syntax * RainbowParenthesesLoadRound
 au Syntax * RainbowParenthesesLoadSquare
 au Syntax * RainbowParenthesesLoadBraces
+
+au BufNewFile,BufRead *.jack setf jack
 
 "Vim-airline
 let g:airline#extensions#tabline#enabled = 1

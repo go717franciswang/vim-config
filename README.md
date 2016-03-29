@@ -15,4 +15,6 @@ ln -s `realpath .vimrc` ../.vimrc
 ln -s `realpath .tmux.conf` ../.tmux.conf
 ```
 
-test
+### Misc
+* [Tsuquyomi|https://github.com/Quramy/tsuquyomi] plugin requires nodejs typescript engine, and vimproc
+* [vimproc|https://github.com/Shougo/vimproc.vim] plugin requires compilation. Run `make` after pulling the repo.

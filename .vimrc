@@ -19,6 +19,8 @@ set t_Co=256
 "set textwidth=80
 "set wrap!
 
+set term=screen-256color
+
 filetype indent plugin on
 autocmd Filetype c setlocal ts=2 sw=2 expandtab
 autocmd Filetype html setlocal ts=2 sw=2 expandtab
@@ -94,7 +96,8 @@ let g:airline#extensions#tabline#enabled = 1
 "colorscheme ron
 "colorscheme xoria256
 "colorscheme wombat256
-colorscheme beauty256
-"colorscheme 256-jungle
+"colorscheme beauty256
+colorscheme 256-jungle
 "colorscheme colorful256
 "colorscheme desert256
+
